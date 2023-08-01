@@ -27,7 +27,7 @@
                         <a href="{{route('categories.index')}}">categories</a>
                     </li>
                     <li class="hover:text-gray-400">
-                        <a href="#coa">coa</a>
+                        <a href="{{route('coa.index')}}">coa</a>
                     </li>
                     <li class="hover:text-gray-400">
                         <a href="#transactions">transactions</a>
@@ -50,7 +50,7 @@
                         <a id="hLink" href="{{route('categories.index')}}">categories</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#coa">coa</a>
+                        <a id="hLink" href="{{route('coa.index')}}">coa</a>
                     </li>
                     <li>
                         <a id="hLink" href="#transactions">transactions</a>

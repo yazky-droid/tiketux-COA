@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ChartOfAccountController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,4 @@ Route::get('/home', function () {
 })->name("home");
 
 Route::resource('/categories', CategoryController::class);
+Route::resource('/coa', ChartOfAccountController::class);
