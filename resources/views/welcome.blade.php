@@ -1,13 +1,8 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  @vite('resources/css/app.css')
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline text-red-500 text-center mt-24">
-    Hello world!
-  </h1>
-</body>
-</html>
+@extends('../layouts.app')
+ 
+@section('title', 'Home')
+ 
+
+@section('content')
+    <p class="text-red-500">Hellow Yeah it's a landing page.</p>
+@endsection
