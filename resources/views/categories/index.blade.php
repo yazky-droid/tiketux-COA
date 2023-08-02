@@ -34,7 +34,6 @@
                                             <td class="text-center py-2">{{ $category->nama }}</td>
                                             <td class="text-center py-2">
                                                 <form onsubmit="return confirm('Apakah anda yakin?');" action="{{ route('categories.destroy',$category->id) }}" method="POST">
-                                                    <a href="{{ route('categories.show', $category->id) }}" class="rounded-full bg-green-300 px-2">SHOW</a>
                                                     <a href="{{ route('categories.edit', $category->id) }}" class="rounded-full bg-blue-300 px-2">EDIT</a>
                                                     @csrf
                                                     @method('DELETE')

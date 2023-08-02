@@ -30,7 +30,7 @@
                         <a href="{{route('coa.index')}}">coa</a>
                     </li>
                     <li class="hover:text-gray-400">
-                        <a href="#transactions">transactions</a>
+                        <a href="{{route('transactions.index')}}">transactions</a>
                     </li>
                     <li class="hover:text-gray-400">
                         <a href="#report">report</a>
@@ -53,7 +53,7 @@
                         <a id="hLink" href="{{route('coa.index')}}">coa</a>
                     </li>
                     <li>
-                        <a id="hLink" href="#transactions">transactions</a>
+                        <a id="hLink" href="{{route('transactions.index')}}">transactions</a>
                     </li>
                     <li>
                         <a id="hLink" href="#report">report</a>
@@ -74,6 +74,8 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/datepicker.min.js"></script>
+
         <script>
             //message with toastr
 

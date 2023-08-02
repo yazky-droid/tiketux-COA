@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ChartOfAccountController;
+use App\Http\Controllers\TransactionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/home', function () {
 
 Route::resource('/categories', CategoryController::class);
 Route::resource('/coa', ChartOfAccountController::class);
+Route::resource('/transactions', TransactionController::class);

@@ -1,6 +1,6 @@
 @extends('../layouts.app')
  
-@section('title', 'Create Categories')
+@section('title', 'Edit COA')
 
 @section('content')
 
@@ -8,7 +8,7 @@
     <div class="p-5 rounded-t-lg bg-slate-300">
         <div class="w-100">
             <div>
-                <h3 class="text-center my-4">Add COA</h3>
+                <h3 class="text-center my-4">Edit COA</h3>
                 <h5 class="text-center"><a href="https://yazkymaulana.my.id">www.yazkymaulana.my.id</a></h5>
             </div>    
             <div class="bg-slate-200 p-10 shadow-sm rounded ">
@@ -50,7 +50,7 @@
                             </label>
                             <select class="form-control shadow border rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-option" name="category_id">
                                 @foreach ($category as $item)
-                                    <option value="{{ $item->id }}" @php if($item->id === $coa->category_id) echo 'selected="selected"' @endphp">{{ $item->nama }}</option>
+                                    <option value="{{ $item->id }}" @php if($item->id === $coa->category_id) echo 'selected="selected"' @endphp>{{ $item->nama }}</option>
                                 @endforeach 
                            </select>
 
